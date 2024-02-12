@@ -1,0 +1,18 @@
+{
+  "name": "react-express-netlify-template",
+  "version": "1.0.0",
+  "repository": "https://github.com/TeamShiksha/react-express-netlify-template.git",
+  "author": "TeamShiksha",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn workspace server start\" \"yarn workspace client start\""
+  }
+}
