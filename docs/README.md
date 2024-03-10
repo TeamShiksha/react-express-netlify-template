@@ -5,6 +5,7 @@ This repository serves as a template with a monorepo configuration designed for 
 # run locally
 
 ```
+npm install netlify-cli -g(only if netlify CLI is not globally installed)
 git clone https://github.com/TeamShiksha/react-express-netlify-template.git
 cd react-express-netlify-templat
 yarn install
