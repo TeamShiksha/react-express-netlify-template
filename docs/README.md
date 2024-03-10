@@ -4,10 +4,15 @@ This repository serves as a template with a monorepo configuration designed for 
 
 ## [Live](https://react-express-netlify-template.netlify.app/)
 
+## prerequisite
+
+1. Sign up with Github on netlify, so that netlify can access your repositories.
+2. Install netlify CLI globally `npm install netlify-cli -g (If the Netlify CLI is not installed globally)`
+
+
 ## run locally
 
 ```
-npm install netlify-cli -g (If the Netlify CLI is not installed globally)
 git clone https://github.com/TeamShiksha/react-express-netlify-template.git
 cd react-express-netlify-templat
 yarn install
